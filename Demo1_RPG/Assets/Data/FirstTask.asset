@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a70124bad0ea5fc4c8b373c19f6b067f, type: 3}
+  m_Name: FirstTask
+  m_EditorClassIdentifier: 
+  State: 0
+  dialogueWaiting:
+  - "\u4F60\u597D\u52C7\u58EB\uFF0C\u6B22\u8FCE\u4F60\u6765\u5230\u8FD9\u4E2A\u6751\u5E84\uFF01"
+  - "\u6211\u4EEC\u6751\u9644\u8FD1\u6709\u91CE\u72FC\u51FA\u6CA1\uFF0C\u6751\u6C11\u9971\u53D7\u56F0\u6270\u3002"
+  - "\u5982\u679C\u4F60\u80FD\u5E2E\u6211\u4EEC\u9664\u638910\u53EA\u72FC\uFF0C\u6211\u4EEC\u4F1A\u975E\u5E38\u611F\u6FC0\u4F60\uFF01"
+  - "\u7ED9\u4F60\u4E00\u628A\u9570\u5200\uFF0C\u5E0C\u671B\u80FD\u5E2E\u5230\u4F60\u3002"
+  startReward: {fileID: 11400000, guid: c083f2810203e954eb4afce042576d17, type: 2}
+  endReward: {fileID: 11400000, guid: df976becab7508c43856f6bf1385004b, type: 2}
+  enemyCountNeeded: 10
+  currentEnemyCount: 0
